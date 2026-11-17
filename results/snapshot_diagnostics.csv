@@ -1,0 +1,7 @@
+cutoff,split,n,no_activity,missing_submission_rate,assignments_due
+14,development,1890,41,1890,0
+14,test,1862,41,1862,0
+28,development,1874,21,0,1
+28,test,1834,21,0,1
+42,development,1846,12,0,1
+42,test,1810,14,0,1

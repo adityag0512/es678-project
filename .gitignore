@@ -1,0 +1,41 @@
+# Local environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.DS_Store
+Thumbs.db
+.env
+.env.*
+*.pem
+*.key
+# Data, paper and regenerable binary artifacts stay local
+/data/
+/paper/
+*.pkl
+*.joblib
+*.zip
+# Only reviewed aggregate submission results are tracked
+/results/*
+!/results/metrics.csv
+!/results/reference_metrics.csv
+!/results/reference_manifest.json
+!/results/paired_bootstrap.csv
+!/results/primary_results.csv
+!/results/cohorts.csv
+!/results/data_audit.csv
+!/results/error_analysis.csv
+!/results/error_examples.csv
+!/results/selection.json
+!/results/training_selection.json
+!/results/snapshot_diagnostics.csv
+!/results/EVIDENCE.md
+!/results/budget_sensitivity.csv
+!/results/cv_results.csv
+!/results/figures/
+/results/figures/*
+!/results/figures/common_cohort.png
+!/results/figures/early_warning_tradeoff.png
+!/results/figures/feature_ablation.png

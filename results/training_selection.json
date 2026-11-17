@@ -1,0 +1,230 @@
+[
+  {
+    "cutoff": 14,
+    "feature_group": "background",
+    "model": "logistic",
+    "cv_recall": 0.1994882620708006,
+    "parameters": {
+      "model__C": 1.0
+    }
+  },
+  {
+    "cutoff": 14,
+    "feature_group": "background",
+    "model": "boosted",
+    "cv_recall": 0.20537139554014097,
+    "parameters": {
+      "model__l2_regularization": 1.0,
+      "model__max_leaf_nodes": 7
+    }
+  },
+  {
+    "cutoff": 14,
+    "feature_group": "engagement",
+    "model": "logistic",
+    "cv_recall": 0.15283072135603315,
+    "parameters": {
+      "model__C": 0.1
+    }
+  },
+  {
+    "cutoff": 14,
+    "feature_group": "engagement",
+    "model": "boosted",
+    "cv_recall": 0.17938953522225715,
+    "parameters": {
+      "model__l2_regularization": 10.0,
+      "model__max_leaf_nodes": 7
+    }
+  },
+  {
+    "cutoff": 14,
+    "feature_group": "engagement_submission",
+    "model": "logistic",
+    "cv_recall": 0.14652961505492684,
+    "parameters": {
+      "model__C": 0.1
+    }
+  },
+  {
+    "cutoff": 14,
+    "feature_group": "engagement_submission",
+    "model": "boosted",
+    "cv_recall": 0.18248311293065508,
+    "parameters": {
+      "model__l2_regularization": 1.0,
+      "model__max_leaf_nodes": 7
+    }
+  },
+  {
+    "cutoff": 14,
+    "feature_group": "all",
+    "model": "logistic",
+    "cv_recall": 0.22861582318662288,
+    "parameters": {
+      "model__C": 0.1
+    }
+  },
+  {
+    "cutoff": 14,
+    "feature_group": "all",
+    "model": "boosted",
+    "cv_recall": 0.22462658941015506,
+    "parameters": {
+      "model__l2_regularization": 10.0,
+      "model__max_leaf_nodes": 7
+    }
+  },
+  {
+    "cutoff": 28,
+    "feature_group": "background",
+    "model": "logistic",
+    "cv_recall": 0.17859305647580168,
+    "parameters": {
+      "model__C": 0.1
+    }
+  },
+  {
+    "cutoff": 28,
+    "feature_group": "background",
+    "model": "boosted",
+    "cv_recall": 0.18243921032195554,
+    "parameters": {
+      "model__l2_regularization": 10.0,
+      "model__max_leaf_nodes": 7
+    }
+  },
+  {
+    "cutoff": 28,
+    "feature_group": "engagement",
+    "model": "logistic",
+    "cv_recall": 0.15011324183243283,
+    "parameters": {
+      "model__C": 0.1
+    }
+  },
+  {
+    "cutoff": 28,
+    "feature_group": "engagement",
+    "model": "boosted",
+    "cv_recall": 0.18053001677254027,
+    "parameters": {
+      "model__l2_regularization": 10.0,
+      "model__max_leaf_nodes": 7
+    }
+  },
+  {
+    "cutoff": 28,
+    "feature_group": "engagement_submission",
+    "model": "logistic",
+    "cv_recall": 0.1892655554718116,
+    "parameters": {
+      "model__C": 0.1
+    }
+  },
+  {
+    "cutoff": 28,
+    "feature_group": "engagement_submission",
+    "model": "boosted",
+    "cv_recall": 0.2196784869391295,
+    "parameters": {
+      "model__l2_regularization": 10.0,
+      "model__max_leaf_nodes": 7
+    }
+  },
+  {
+    "cutoff": 28,
+    "feature_group": "all",
+    "model": "logistic",
+    "cv_recall": 0.21345849180627846,
+    "parameters": {
+      "model__C": 1.0
+    }
+  },
+  {
+    "cutoff": 28,
+    "feature_group": "all",
+    "model": "boosted",
+    "cv_recall": 0.22770037711030092,
+    "parameters": {
+      "model__l2_regularization": 10.0,
+      "model__max_leaf_nodes": 7
+    }
+  },
+  {
+    "cutoff": 42,
+    "feature_group": "background",
+    "model": "logistic",
+    "cv_recall": 0.17191941391941393,
+    "parameters": {
+      "model__C": 1.0
+    }
+  },
+  {
+    "cutoff": 42,
+    "feature_group": "background",
+    "model": "boosted",
+    "cv_recall": 0.14559523809523808,
+    "parameters": {
+      "model__l2_regularization": 10.0,
+      "model__max_leaf_nodes": 15
+    }
+  },
+  {
+    "cutoff": 42,
+    "feature_group": "engagement",
+    "model": "logistic",
+    "cv_recall": 0.11807692307692305,
+    "parameters": {
+      "model__C": 0.1
+    }
+  },
+  {
+    "cutoff": 42,
+    "feature_group": "engagement",
+    "model": "boosted",
+    "cv_recall": 0.15385531135531133,
+    "parameters": {
+      "model__l2_regularization": 1.0,
+      "model__max_leaf_nodes": 15
+    }
+  },
+  {
+    "cutoff": 42,
+    "feature_group": "engagement_submission",
+    "model": "logistic",
+    "cv_recall": 0.1569652014652015,
+    "parameters": {
+      "model__C": 0.1
+    }
+  },
+  {
+    "cutoff": 42,
+    "feature_group": "engagement_submission",
+    "model": "boosted",
+    "cv_recall": 0.15954029304029302,
+    "parameters": {
+      "model__l2_regularization": 10.0,
+      "model__max_leaf_nodes": 15
+    }
+  },
+  {
+    "cutoff": 42,
+    "feature_group": "all",
+    "model": "logistic",
+    "cv_recall": 0.18673443223443226,
+    "parameters": {
+      "model__C": 0.1
+    }
+  },
+  {
+    "cutoff": 42,
+    "feature_group": "all",
+    "model": "boosted",
+    "cv_recall": 0.19533150183150186,
+    "parameters": {
+      "model__l2_regularization": 1.0,
+      "model__max_leaf_nodes": 7
+    }
+  }
+]

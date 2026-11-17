@@ -1,0 +1,13 @@
+cutoff,model,error_type,id_student,predicted_probability,final_result,warning_days,num_of_prev_attempts,studied_credits,highest_education,total_clicks,active_days,days_since_last_activity,no_activity,clicks_last_7,clicks_previous_7,click_change,submissions,assignments_due,overdue,submission_rate
+14,all_logistic,false_positive,1866233,0.2876107169428825,Fail,,1,60,A Level or Equivalent,0,0,60.0,1,0,0,0,0,0,0,
+14,all_logistic,missed_withdrawal,698762,0.1579300534242882,Withdrawn,60.0,0,120,A Level or Equivalent,374,12,2.0,0,173,80,93,0,0,0,
+14,all_boosted,false_positive,372511,0.3093283862571471,Pass,,0,150,HE Qualification,1,1,7.0,0,0,1,-1,0,0,0,
+14,all_boosted,missed_withdrawal,676040,0.1509491435029778,Withdrawn,48.0,0,60,Lower Than A Level,341,12,1.0,0,62,118,-56,0,0,0,
+28,all_logistic,false_positive,679790,0.3153689705749884,Pass,,0,120,HE Qualification,95,8,0.0,0,23,20,3,0,1,1,0.0
+28,all_logistic,missed_withdrawal,695250,0.1421437840889238,Withdrawn,72.0,0,120,A Level or Equivalent,716,26,1.0,0,99,323,-224,1,1,0,1.0
+28,all_boosted,false_positive,652647,0.3109990573940948,Fail,,0,90,Lower Than A Level,388,24,0.0,0,48,156,-108,0,1,1,0.0
+28,all_boosted,missed_withdrawal,631193,0.1422912650140803,Withdrawn,13.0,0,120,Lower Than A Level,324,15,2.0,0,88,0,88,1,1,0,1.0
+42,all_logistic,false_positive,650048,0.2538316394084136,Fail,,0,120,Lower Than A Level,62,4,19.0,0,0,0,0,1,1,0,1.0
+42,all_logistic,missed_withdrawal,340831,0.1405986036022009,Withdrawn,27.0,0,120,A Level or Equivalent,311,32,1.0,0,1,67,-66,1,1,0,1.0
+42,all_boosted,false_positive,650031,0.2728966994276312,Fail,,0,120,Lower Than A Level,691,26,0.0,0,78,88,-10,1,1,0,1.0
+42,all_boosted,missed_withdrawal,690962,0.1502067086804506,Withdrawn,74.0,0,180,A Level or Equivalent,313,29,0.0,0,31,19,12,1,1,0,1.0

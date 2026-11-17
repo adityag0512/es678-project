@@ -1,0 +1,15 @@
+{
+  "data/processed/development_day14.csv": "29881f7efab219703528507fc395712e58a144b7614c78bd4c04222afc8ffe22",
+  "data/processed/development_day28.csv": "0d7b23ffa3c3bc029827e9653521940dd632469ae829a9662ee102aac529cf81",
+  "data/processed/development_day42.csv": "87410f9081101b9f2fb2ee3fc0509e7f76cc312625d710fe996fecb9bfb2ed8d",
+  "data/processed/test_day14.csv": "976720a90a15a90c3fef832159296b41014b8472903d09a388252dc7c98cf641",
+  "data/processed/test_day28.csv": "161494eb0c24a7135efcd6e0888a4208e3d51ec83f162857921145a0b2cf94d7",
+  "data/processed/test_day42.csv": "1d4732030ae4422360d76e8a7bf7294c756a0ec5991fc14247a785d9fb7fa538",
+  "data/raw/assessments.csv": "9ce92381e4a0ac457f8e251b2eb2c179ed51e023ab30d1d671a0268bd62316ba",
+  "data/raw/courses.csv": "4f16eee7454b15e109b0a21a0e43be820e6846ed6f9301bb7feb5ab5ad737a75",
+  "data/raw/studentAssessment.csv": "b1839e17618a5de36b6d189a242d3123f7939a56c8c9ccef0c17b9199c614a6b",
+  "data/raw/studentInfo.csv": "815fbc3e2de29f79900bc63f0345a35db62c9146afaa1d86e7107b8b3beffc60",
+  "data/raw/studentRegistration.csv": "bbc87a0de1fe2a9ec6decce1ca6c1a02cf17b54ad3bdcc673fc6413b41c61d47",
+  "data/raw/studentVle.csv": "52668253d876c5becbcb72185977152700cecab2942aca807fecc3dd54b937f0",
+  "data/raw/vle.csv": "d7a146497edd0e47ef536144b58796c07b554002d3753e848b8e4cd8a56f4c38"
+}

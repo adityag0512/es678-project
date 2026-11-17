@@ -1,0 +1,10 @@
+{
+  "seed": 678,
+  "cutoffs": [14, 28, 42],
+  "alert_fraction": 0.1,
+  "cv_folds": 5,
+  "bootstrap_replicates": 2000,
+  "outcome_availability_lag_days": 30,
+  "minimum_development_enrollments": 500,
+  "feature_groups": ["background", "engagement", "engagement_submission", "all"]
+}

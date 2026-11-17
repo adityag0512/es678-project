@@ -1,0 +1,10 @@
+{
+  "module": "FFF",
+  "development": "2013J",
+  "test": "2014J",
+  "development_enrollments": 2283,
+  "conservative_outcomes_available": "2014-08-25",
+  "earliest_test_cutoff": "2014-10-15",
+  "overlapping_students_removed_from_development": 117,
+  "selected_activity_rows": 2382460
+}
