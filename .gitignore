@@ -17,7 +17,7 @@ Thumbs.db
 *.pkl
 *.joblib
 *.zip
-# Only reviewed aggregate submission results are tracked
+# Reviewed aggregate results and exact split/prediction audit records are tracked
 /results/*
 !/results/metrics.csv
 !/results/reference_metrics.csv
@@ -39,3 +39,19 @@ Thumbs.db
 !/results/figures/common_cohort.png
 !/results/figures/early_warning_tradeoff.png
 !/results/figures/feature_ablation.png
+
+# Exact reproducibility evidence (pseudonymous OULAD IDs)
+!/results/splits/
+/results/splits/*
+!/results/splits/development_day14.csv
+!/results/splits/development_day28.csv
+!/results/splits/development_day42.csv
+!/results/splits/test_day14.csv
+!/results/splits/test_day28.csv
+!/results/splits/test_day42.csv
+!/results/predictions/
+/results/predictions/*
+!/results/predictions/day14.csv
+!/results/predictions/day28.csv
+!/results/predictions/day42.csv
+!/results/predictions/row_audit.csv

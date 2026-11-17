@@ -99,4 +99,4 @@ The primary model protocol and test results remain unchanged. After the original
 test run, representative error cases and frozen-score budget sensitivity (5%, 15%,
 20%, plus an interactive 5–20% range) were added for explanation. These are
 retrospective analyses, not a new validation set or a reason to change the primary
-10% budget. Reference snapshot hashes are included. Exact split IDs and CV fold membership are regenerated locally by the reproduction workflow; row-level exports are excluded from Git.
+10% budget. Reference snapshot hashes, exact split IDs and CV fold membership (results/splits/), test predictions and the sampled-row audit (results/predictions/) are included. The reproduction workflow also regenerates these records locally. Raw tables, feature snapshots and model binaries remain excluded from Git.

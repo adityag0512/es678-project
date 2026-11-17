@@ -43,8 +43,9 @@ The notebook contains saved outputs. For its live interaction:
 ```
 
 Run all cells. Select the cutoff, dynamic/common cohort, and an alert budget from
-5–20%. The explorer uses compact aggregate results already included in the repo.
-Raw student-level prediction and split files are not needed. Non-primary budgets
+5–20%. The explorer uses included student-level predictions and exact split records,
+with compact aggregate results as a fallback. Raw OULAD tables and model binaries
+are not needed. Non-primary budgets
 are retrospective sensitivity analyses, not another model-selection exercise.
 
 ## Reproduce from raw data
@@ -57,8 +58,9 @@ This downloads and checks OULAD, runs tests, rebuilds six snapshots, trains 24 m
 variants, evaluates the later offering, audits 48 raw-record rows, rebuilds all
 analyses, verifies the original results, and executes the notebook. Allow several
 minutes plus download time, and about 600 MB of disk space excluding the environment.
-Generated raw data, snapshots, models, detailed predictions and splits stay local
-and are ignored by Git. The command overwrites generated outputs.
+Generated raw data, feature snapshots and model binaries stay local and are ignored
+by Git. Exact split/fold records, test predictions and the sampled-row audit are
+included for verification. The command overwrites generated outputs.
 
 Keep `config.json` unchanged to reproduce the submission. Verification compares
 66 metric rows with `reference_metrics.csv`, six snapshot and seven raw-table
@@ -91,10 +93,12 @@ records the download source and checksums. For offline use, place the original
 archive and seven CSVs in `data/raw/` before running the workflow.
 
 Development is FFF 2013J, final test is FFF 2014J, and all 117 overlapping student
-IDs are removed from development. Exact split/fold records are deterministically
-regenerated under seed 678. Snapshot fingerprints verify identical membership and
-features. Missing values, eligibility rules and feature boundaries are documented
-in the protocol. Derived error examples retain OULAD's pseudonymous identifiers
+IDs are removed from development. Exact split/fold records are included in
+`results/splits/` and deterministically regenerated under seed 678. Test predictions
+are included in `results/predictions/day14.csv`, `day28.csv` and `day42.csv`; the
+48-row raw-record audit is `results/predictions/row_audit.csv`. Snapshot fingerprints
+verify identical membership and features. Missing values, eligibility rules and feature boundaries are documented
+in the protocol. Split records, predictions, audits and derived error examples retain OULAD's pseudonymous identifiers
 and dataset attribution; they are not real-world identities.
 
 ## Minimal repository structure
@@ -106,15 +110,17 @@ and dataset attribution; they are not real-world identities.
 | `tests/` | Leakage, chronology, metrics, pipeline and interaction checks |
 | `notebooks/` | One executed analysis notebook |
 | `docs/` | Reasoning, protocol, data provenance, AI use and citations |
-| `results/` | Small aggregate tables, representative errors and three figures |
+| `results/` | Aggregate tables, figures, exact splits/folds, predictions and row audit |
 | `config.json` | Frozen experimental settings |
 | `requirements.txt` | Pinned software dependencies |
 
 The repository includes all model-comparison metrics, paired confidence intervals,
 both-family ablations, cohort counts and combined CV results (`cv_results.csv`).
 `reference_metrics.csv` is retained separately as the original reproducibility
-benchmark. Student-level predictions/splits, individual CV files, datasets, model
-binaries, logs, environments, caches, archives, and the paper folder are excluded.
+benchmark. Exact splits/folds and student-level prediction/audit CSVs are included
+as small reproducibility artifacts with pseudonymous OULAD IDs. Individual CV files,
+raw datasets, feature snapshots, model binaries, logs, environments, caches, archives,
+and the paper folder remain excluded.
 
 ## AI-use disclosure
 
